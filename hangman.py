@@ -1,7 +1,7 @@
 from win32com.client import Dispatch
 import random
 def hangman():
-    word=random.choice(['python','rider','provider','binod','gajodar','elon','lloyd'])
+    word=random.choice(['python','rider','provider','binod','gajodar','elon','lloyd','vishal','vijesh','vyas'])
     valid_letters='abcdefghijklmnopqrstuvwxyz'
     # turns left
     turns=10
